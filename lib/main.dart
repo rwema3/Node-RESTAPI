@@ -14,3 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Node-Flutter",
       debugShowCheckedModeBanner: false,
+      home: Hommy(),
+    );
+  }
+}
