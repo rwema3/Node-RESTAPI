@@ -7,3 +7,6 @@ void main() {
       SystemUiOverlayStyle(statusBarColor: Colors.white));
   runApp(MyApp());
 }
+
+class MyApp extends StatelessWidget {
+  @override
