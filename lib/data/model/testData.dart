@@ -42,4 +42,14 @@ class TestData {
         testDatumId: json["id"],
       );
 
+  Map<String, dynamic> toJson() => {
+        "_id": id,
+        "name": name,
+        "email": email,
+        "age": age,
+        "laptop": laptop,
+        "gender": gender,
+        "__v": v,
+        "id": testDatumId,
+      };
 }
