@@ -31,4 +31,15 @@ class TestData {
   int v;
   String testDatumId;
 
+  factory TestData.fromJson(Map<String, dynamic> json) => TestData(
+        id: json["_id"],
+        name: json["name"],
+        email: json["email"],
+        age: json["age"],
+        laptop: json["laptop"],
+        gender: json["gender"],
+        v: json["__v"],
+        testDatumId: json["id"],
+      );
+
 }
