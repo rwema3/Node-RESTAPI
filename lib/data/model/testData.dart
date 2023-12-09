@@ -19,5 +19,9 @@ class TestData {
     this.laptop,
     this.gender,
     this.v,
+    this.testDatumId,
+  });
+
+  String id;
 
 }
