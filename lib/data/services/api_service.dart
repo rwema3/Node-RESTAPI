@@ -5,3 +5,4 @@ import 'package:http/http.dart' as http;
 class ApiService {
   List<TestData> testData;
 
+  static Future<List<TestData>> getTestData() async {
