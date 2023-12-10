@@ -29,3 +29,5 @@ class ApiService {
         "laptop": "laptop",
         "gender": "gender",
       }),
+    );
+    if (res.statusCode == 200) {
