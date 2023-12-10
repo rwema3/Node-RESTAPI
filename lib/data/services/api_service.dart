@@ -42,3 +42,7 @@ class ApiService {
     String email,
   }) async {
     final res = await http.put(
+      Uri.parse("https://api2021.herokuapp.com/put/$id"),
+      headers: {
+        'Content-Type': 'application/json',
+      },
