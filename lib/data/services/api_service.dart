@@ -46,3 +46,7 @@ class ApiService {
       headers: {
         'Content-Type': 'application/json',
       },
+      body: jsonEncode(<String, dynamic>{
+        "name": name,
+        "email": email,
+        "age": "age",
