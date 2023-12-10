@@ -52,3 +52,5 @@ class ApiService {
         "age": "age",
         "laptop": "laptop",
         "gender": "gender",
+      }),
+    );
