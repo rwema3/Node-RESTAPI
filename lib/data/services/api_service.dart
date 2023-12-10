@@ -27,3 +27,5 @@ class ApiService {
         "email": email,
         "age": "age",
         "laptop": "laptop",
+        "gender": "gender",
+      }),
