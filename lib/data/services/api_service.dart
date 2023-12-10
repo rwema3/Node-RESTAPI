@@ -23,3 +23,7 @@ class ApiService {
         'Content-Type': 'application/json',
       },
       body: jsonEncode(<String, dynamic>{
+        "name": name,
+        "email": email,
+        "age": "age",
+        "laptop": "laptop",
