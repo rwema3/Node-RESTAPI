@@ -68,3 +68,5 @@ class ApiService {
         'Content-Type': 'application/json',
       },
     );
+    if (res.statusCode == 200) {
+      TestData.fromJson(json.decode(res.body));
