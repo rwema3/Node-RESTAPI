@@ -19,3 +19,5 @@ class ApiService {
   }) async {
     final res = await http.post(
       Uri.parse("https://api2021.herokuapp.com/post"),
+      headers: {
+        'Content-Type': 'application/json',
