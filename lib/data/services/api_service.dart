@@ -17,3 +17,5 @@ class ApiService {
     String name,
     String email,
   }) async {
+    final res = await http.post(
+      Uri.parse("https://api2021.herokuapp.com/post"),
