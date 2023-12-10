@@ -36,3 +36,7 @@ class ApiService {
     return null;
   }
 
+  static Future<List<TestData>> updateTestData({
+    String id,
+    String name,
+    String email,
