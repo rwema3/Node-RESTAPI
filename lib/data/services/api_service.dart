@@ -54,3 +54,5 @@ class ApiService {
         "gender": "gender",
       }),
     );
+
+    if (res.statusCode == 200) {
