@@ -8,3 +8,5 @@ class ApiService {
   static Future<List<TestData>> getTestData() async {
     final res = await http.get(
       Uri.parse("https://api2021.herokuapp.com/"),
+    );
+    if (res.statusCode == 200) return testDataFromJson(res.body);
