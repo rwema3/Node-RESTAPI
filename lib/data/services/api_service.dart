@@ -6,3 +6,5 @@ class ApiService {
   List<TestData> testData;
 
   static Future<List<TestData>> getTestData() async {
+    final res = await http.get(
+      Uri.parse("https://api2021.herokuapp.com/"),
