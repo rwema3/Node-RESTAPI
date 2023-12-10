@@ -50,3 +50,5 @@ class ApiService {
         "name": name,
         "email": email,
         "age": "age",
+        "laptop": "laptop",
+        "gender": "gender",
