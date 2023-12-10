@@ -61,3 +61,5 @@ class ApiService {
     return null;
   }
 
+  static Future<List<TestData>> deleteTestData({String id}) async {
+    final res = await http.delete(
