@@ -65,3 +65,6 @@ class ApiService {
     final res = await http.delete(
       Uri.parse("https://api2021.herokuapp.com/delete/$id"),
       headers: {
+        'Content-Type': 'application/json',
+      },
+    );
