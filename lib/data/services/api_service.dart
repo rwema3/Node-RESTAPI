@@ -64,3 +64,4 @@ class ApiService {
   static Future<List<TestData>> deleteTestData({String id}) async {
     final res = await http.delete(
       Uri.parse("https://api2021.herokuapp.com/delete/$id"),
+      headers: {
