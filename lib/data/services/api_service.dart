@@ -70,3 +70,7 @@ class ApiService {
     );
     if (res.statusCode == 200) {
       TestData.fromJson(json.decode(res.body));
+    }
+    return null;
+  }
+}
