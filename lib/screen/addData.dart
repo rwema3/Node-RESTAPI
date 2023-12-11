@@ -55,3 +55,8 @@ class _AddDataState extends State<AddData> {
               controller: _email,
             ),
             SizedBox(
+              height: size.height * 0.02,
+            ),
+            elevatedbutton(
+              context,
+              textString: widget.testData == null ? "Add Data" : "Edit Data",
