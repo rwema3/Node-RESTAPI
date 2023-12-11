@@ -117,3 +117,6 @@ Widget textformfield({
     decoration: InputDecoration(
       hintText: hintText,
       hintStyle: textStyle(
+        color: Colors.grey,
+      ),
+      focusedBorder: OutlineInputBorder(
