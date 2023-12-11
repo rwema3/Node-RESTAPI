@@ -138,3 +138,7 @@ Widget textformfield({
         ),
       ),
       fillColor: Colors.grey.withOpacity(0.1),
+      filled: true,
+    ),
+  );
+}
