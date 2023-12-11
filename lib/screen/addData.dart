@@ -86,3 +86,7 @@ class _AddDataState extends State<AddData> {
                       name: name,
                       email: email,
                     );
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content: Text("Successfully Post"),
+                    ));
+                    Navigator.pop(context);
