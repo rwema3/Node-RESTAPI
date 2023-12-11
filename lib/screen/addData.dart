@@ -51,3 +51,7 @@ class _AddDataState extends State<AddData> {
             ),
             textformfield(
               keyboardType: TextInputType.emailAddress,
+              hintText: "Enter your Email",
+              controller: _email,
+            ),
+            SizedBox(
