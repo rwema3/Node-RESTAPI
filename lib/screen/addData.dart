@@ -98,3 +98,10 @@ class _AddDataState extends State<AddData> {
                 _email.clear();
               },
             ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
