@@ -131,3 +131,5 @@ Widget textformfield({
           color: Colors.grey.withOpacity(0.3),
         ),
       ),
+      errorBorder: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(18),
