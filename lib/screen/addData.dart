@@ -82,3 +82,7 @@ class _AddDataState extends State<AddData> {
                   final email = _email.text;
                   final name = _name.text;
                   try {
+                    ApiService.postTestData(
+                      name: name,
+                      email: email,
+                    );
