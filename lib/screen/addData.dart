@@ -29,3 +29,7 @@ class _AddDataState extends State<AddData> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
+      appBar: appbar(
+        context,
+        textString: widget.testData == null ? "Add Data" : "Edit data",
+      ),
