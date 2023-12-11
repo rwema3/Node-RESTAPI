@@ -111,3 +111,4 @@ Widget textformfield({
   TextInputType keyboardType,
 }) {
   return TextFormField(
+    keyboardType: keyboardType,
