@@ -122,3 +122,6 @@ Widget textformfield({
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(18),
         borderSide: BorderSide(
+          color: Colors.grey.withOpacity(0.3),
+        ),
+      ),
