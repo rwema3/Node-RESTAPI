@@ -74,3 +74,7 @@ class _AddDataState extends State<AddData> {
                       content: Text("Successfully Post Updated"),
                     ));
                     Navigator.pop(context);
+                  } catch (e) {
+                    print("Error Add Data" + e);
+                  }
+                }
