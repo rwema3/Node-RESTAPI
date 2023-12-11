@@ -112,3 +112,5 @@ Widget textformfield({
 }) {
   return TextFormField(
     keyboardType: keyboardType,
+    cursorColor: Colors.red,
+    controller: controller,
