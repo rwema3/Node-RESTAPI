@@ -48,3 +48,6 @@ class _AddDataState extends State<AddData> {
             ),
             SizedBox(
               height: size.height * 0.02,
+            ),
+            textformfield(
+              keyboardType: TextInputType.emailAddress,
