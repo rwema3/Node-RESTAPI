@@ -61,3 +61,5 @@ class _HommyState extends State<Hommy> {
               ),
             ),
           ),
+          title: Text(user[index].name ?? ""),
+          subtitle: Text(user[index].email ?? ""),
