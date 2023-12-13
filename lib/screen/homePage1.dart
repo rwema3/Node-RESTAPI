@@ -33,4 +33,7 @@ class _HommyState extends State<Hommy> {
       ),
       body: StreamBuilder(
         stream: Stream.periodic(Duration(seconds: 2)).asyncMap(
+          (i) => ApiService.getTestData(),
+        ),
+        builder: (_, snapshot) {
 
