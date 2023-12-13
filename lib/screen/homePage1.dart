@@ -54,3 +54,10 @@ class _HommyState extends State<Hommy> {
           leading: CircleAvatar(
             backgroundColor: Colors.indigo,
             child: Text(
+              show.toUpperCase(),
+              style: textStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
