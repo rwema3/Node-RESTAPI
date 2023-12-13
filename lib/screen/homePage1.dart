@@ -72,3 +72,8 @@ class _HommyState extends State<Hommy> {
                 ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                   content: Text("delete"),
                 ));
+              } catch (e) {
+                print("delete error");
+              }
+            },
+          ),
