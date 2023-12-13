@@ -67,3 +67,5 @@ class _HommyState extends State<Hommy> {
             icon: Icon(Icons.delete),
             onPressed: () {
               try {
+                ApiService.deleteTestData(id: user[index].id);
+                setState(() {});
