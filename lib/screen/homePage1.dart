@@ -36,4 +36,6 @@ class _HommyState extends State<Hommy> {
           (i) => ApiService.getTestData(),
         ),
         builder: (_, snapshot) {
+          List<TestData> user = snapshot.data;
+          if (!snapshot.hasData) return LinearProgressIndicator();
 
