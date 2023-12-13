@@ -32,4 +32,5 @@ class _HommyState extends State<Hommy> {
         ],
       ),
       body: StreamBuilder(
+        stream: Stream.periodic(Duration(seconds: 2)).asyncMap(
 
