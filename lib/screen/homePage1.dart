@@ -47,3 +47,6 @@ class _HommyState extends State<Hommy> {
   Widget gettingAllDataHere(List<TestData> user, BuildContext context) {
     return ListView.builder(
       itemCount: user.length,
+      itemBuilder: (_, index) {
+        var one = user[index].email;
+        final show = one.substring(0, 1);
