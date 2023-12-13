@@ -18,4 +18,8 @@ class _HommyState extends State<Hommy> {
       appBar: appbar(
         context,
         textString: "Home Page",
+        actions: [
+          IconButton(
+            icon: Icon(Icons.more),
+            onPressed: () {
 
