@@ -38,4 +38,9 @@ class _HommyState extends State<Hommy> {
         builder: (_, snapshot) {
           List<TestData> user = snapshot.data;
           if (!snapshot.hasData) return LinearProgressIndicator();
+          return gettingAllDataHere(user, context);
+        },
+      ),
+    );
+  }
 
