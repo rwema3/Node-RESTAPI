@@ -116,3 +116,5 @@ Widget textForm({TextEditingController controller, String hintText}) {
     child: TextFormField(
       controller: controller,
       decoration: InputDecoration(
+        hintText: hintText,
+        hintStyle: textStyle(
