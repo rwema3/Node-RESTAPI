@@ -69,3 +69,6 @@ class _HommyState extends State<Hommy> {
               try {
                 ApiService.deleteTestData(id: user[index].id);
                 setState(() {});
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                  content: Text("delete"),
+                ));
