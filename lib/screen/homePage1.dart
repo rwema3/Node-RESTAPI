@@ -15,4 +15,7 @@ class _HommyState extends State<Hommy> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: floatingactionbutton(context),
+      appBar: appbar(
+        context,
+        textString: "Home Page",
 
