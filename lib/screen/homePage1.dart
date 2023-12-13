@@ -112,3 +112,5 @@ class _HommyState extends State<Hommy> {
 
 Widget textForm({TextEditingController controller, String hintText}) {
   return Padding(
+    padding: EdgeInsets.all(16.0),
+    child: TextFormField(
