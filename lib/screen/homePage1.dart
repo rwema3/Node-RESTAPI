@@ -98,3 +98,10 @@ class _HommyState extends State<Hommy> {
       onPressed: () {
         Navigator.push(
           context,
+          MaterialPageRoute(
+            builder: (_) => AddData(
+              testData: null,
+            ),
+          ),
+        );
+      },
