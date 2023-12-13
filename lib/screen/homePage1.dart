@@ -118,3 +118,9 @@ Widget textForm({TextEditingController controller, String hintText}) {
       decoration: InputDecoration(
         hintText: hintText,
         hintStyle: textStyle(
+          color: Colors.grey,
+        ),
+      ),
+    ),
+  );
+}
