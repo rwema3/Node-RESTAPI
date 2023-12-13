@@ -50,3 +50,7 @@ class _HommyState extends State<Hommy> {
       itemBuilder: (_, index) {
         var one = user[index].email;
         final show = one.substring(0, 1);
+        return ListTile(
+          leading: CircleAvatar(
+            backgroundColor: Colors.indigo,
+            child: Text(
