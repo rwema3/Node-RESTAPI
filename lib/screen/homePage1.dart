@@ -44,3 +44,6 @@ class _HommyState extends State<Hommy> {
     );
   }
 
+  Widget gettingAllDataHere(List<TestData> user, BuildContext context) {
+    return ListView.builder(
+      itemCount: user.length,
