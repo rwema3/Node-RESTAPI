@@ -77,3 +77,6 @@ class _HommyState extends State<Hommy> {
               }
             },
           ),
+          onLongPress: () {
+            Navigator.push(
+              context,
