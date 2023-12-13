@@ -110,3 +110,5 @@ class _HommyState extends State<Hommy> {
   }
 }
 
+Widget textForm({TextEditingController controller, String hintText}) {
+  return Padding(
