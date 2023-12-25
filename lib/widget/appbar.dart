@@ -14,3 +14,6 @@ Widget appbar(
         ),
       ),
       title: Text(textString),
+      centerTitle: true,
+      actions: actions);
+}
