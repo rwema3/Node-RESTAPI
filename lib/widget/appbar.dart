@@ -13,3 +13,4 @@ Widget appbar(
           bottom: Radius.circular(30),
         ),
       ),
+      title: Text(textString),
