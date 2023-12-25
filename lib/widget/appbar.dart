@@ -8,3 +8,4 @@ Widget appbar(
 }) {
   return AppBar(
       backgroundColor: Colors.red,
+      shape: RoundedRectangleBorder(
