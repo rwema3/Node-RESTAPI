@@ -9,3 +9,7 @@ Widget elevatedbutton(
     onPressed: onPressed,
     child: Text(textString),
     style: ElevatedButton.styleFrom(
+      primary: Colors.red,
+    ),
+  );
+}
