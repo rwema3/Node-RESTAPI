@@ -6,3 +6,5 @@ TextStyle textStyle({
   double size,
 }) {
   return TextStyle(
+    color: color,
+    fontSize: size,
