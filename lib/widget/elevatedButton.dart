@@ -6,3 +6,4 @@ Widget elevatedbutton(
   String textString,
 }) {
   return ElevatedButton(
+    onPressed: onPressed,
