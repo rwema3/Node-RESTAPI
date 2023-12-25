@@ -5,3 +5,4 @@ TextStyle textStyle({
   FontWeight fontWeight,
   double size,
 }) {
+  return TextStyle(
