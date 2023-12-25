@@ -6,3 +6,4 @@ Widget appbar(
   String textString,
   List<Widget> actions,
 }) {
+  return AppBar(
