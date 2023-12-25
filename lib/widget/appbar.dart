@@ -7,3 +7,4 @@ Widget appbar(
   List<Widget> actions,
 }) {
   return AppBar(
+      backgroundColor: Colors.red,
