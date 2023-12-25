@@ -8,3 +8,6 @@ TextStyle textStyle({
   return TextStyle(
     color: color,
     fontSize: size,
+    fontWeight: fontWeight,
+  );
+}
