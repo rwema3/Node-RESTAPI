@@ -10,3 +10,6 @@ Widget appbar(
       backgroundColor: Colors.red,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(
+          bottom: Radius.circular(30),
+        ),
+      ),
