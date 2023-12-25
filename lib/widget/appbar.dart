@@ -4,3 +4,5 @@ Widget appbar(
   BuildContext context, {
   Function onPressed,
   String textString,
+  List<Widget> actions,
+}) {
