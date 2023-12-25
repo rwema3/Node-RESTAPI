@@ -7,3 +7,4 @@ Widget elevatedbutton(
 }) {
   return ElevatedButton(
     onPressed: onPressed,
+    child: Text(textString),
