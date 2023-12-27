@@ -16,7 +16,7 @@ Widget elevatedbutton(
     child: Text(textString),
     // Applying a custom style to the ElevatedButton
     style: ElevatedButton.styleFrom(
-      // Setting the background color of the ElevatedButton to red
+      
       primary: Colors.red,
     ),
   );
