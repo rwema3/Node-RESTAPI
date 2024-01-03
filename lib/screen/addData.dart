@@ -61,4 +61,10 @@ class _AddDataState extends State<AddData> {
               context,
               textString: widget.testData == null ? "Add Data" : "Edit Data",
               onPressed: () {
+                if (widget.testData != null) {
+                  final email = _email.text;
+                  final name = _name.text;
+                  try {
+                    ApiService.updateTestData(
+                      id: widget.testData.id,
  
