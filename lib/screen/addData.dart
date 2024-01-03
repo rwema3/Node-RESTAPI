@@ -77,4 +77,11 @@ class _AddDataState extends State<AddData> {
                   } catch (e) {
                     print("Error Add Data" + e);
                   }
+                }
+                if (widget.testData == null) {
+                  final email = _email.text;
+                  final name = _name.text;
+                  try {
+                    ApiService.postTestData(
+                      name: name,
  
