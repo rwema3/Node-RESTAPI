@@ -105,4 +105,8 @@ class _AddDataState extends State<AddData> {
   }
 }
 
-W
+Widget textformfield({
+  TextEditingController controller,
+  String hintText,
+  TextInputType keyboardType,
+}
