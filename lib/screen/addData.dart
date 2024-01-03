@@ -32,4 +32,9 @@ class _AddDataState extends State<AddData> {
       appBar: appbar(
         context,
         textString: widget.testData == null ? "Add Data" : "Edit data",
+      ),
+      body: Padding(
+        padding: EdgeInsets.symmetric(
+          horizontal: size.width * 0.03,
+        ),
  
