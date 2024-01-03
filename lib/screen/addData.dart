@@ -16,4 +16,7 @@ class _AddDataState extends State<AddData> {
   TextEditingController _name;
   TextEditingController _email;
 
+  @override
+  void initState() {
+    var text = widget.testData;
  
