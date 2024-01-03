@@ -89,4 +89,9 @@ class _AddDataState extends State<AddData> {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                       content: Text("Successfully Post"),
                     ));
+                    Navigator.pop(context);
+                  } catch (e) {
+                    print("Error Add Data" + e);
+                  }
+                }
  
