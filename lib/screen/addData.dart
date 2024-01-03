@@ -12,4 +12,8 @@ class AddData extends StatefulWidget {
   _AddDataState createState() => _AddDataState();
 }
 
-c
+class _AddDataState extends State<AddData> {
+  TextEditingController _name;
+  TextEditingController _email;
+
+ 
