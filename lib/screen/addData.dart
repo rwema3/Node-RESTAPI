@@ -37,4 +37,9 @@ class _AddDataState extends State<AddData> {
         padding: EdgeInsets.symmetric(
           horizontal: size.width * 0.03,
         ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            textformfield(
  
