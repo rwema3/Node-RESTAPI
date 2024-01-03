@@ -6,4 +6,10 @@ import 'package:api3/widget/elevatedButton.dart';
 import 'package:flutter/material.dart';
 
 class AddData extends StatefulWidget {
- 
+  final TestData testData;
+  AddData({this.testData});
+  @override
+  _AddDataState createState() => _AddDataState();
+}
+
+c
