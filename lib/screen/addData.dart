@@ -19,4 +19,8 @@ class _AddDataState extends State<AddData> {
   @override
   void initState() {
     var text = widget.testData;
+    var isEdit = widget.testData != null;
+    _name = TextEditingController(text: isEdit ? text.name : "");
+    _email = TextEditingController(text: isEdit ? text.email : "");
+    super.initState();
  
