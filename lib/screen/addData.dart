@@ -84,4 +84,9 @@ class _AddDataState extends State<AddData> {
                   try {
                     ApiService.postTestData(
                       name: name,
+                      email: email,
+                    );
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content: Text("Successfully Post"),
+                    ));
  
