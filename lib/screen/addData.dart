@@ -67,4 +67,9 @@ class _AddDataState extends State<AddData> {
                   try {
                     ApiService.updateTestData(
                       id: widget.testData.id,
+                      name: name,
+                      email: email,
+                    );
+                    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content: Text("Successfully Post Updated"),
  
