@@ -42,4 +42,9 @@ class _AddDataState extends State<AddData> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             textformfield(
+              keyboardType: TextInputType.name,
+              hintText: "Enter your Name",
+              controller: _name,
+            ),
+            SizedBox(
  
