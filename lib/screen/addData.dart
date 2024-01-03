@@ -47,4 +47,8 @@ class _AddDataState extends State<AddData> {
               controller: _name,
             ),
             SizedBox(
+              height: size.height * 0.02,
+            ),
+            textformfield(
+              keyboardType: TextInputType.emailAddress,
  
