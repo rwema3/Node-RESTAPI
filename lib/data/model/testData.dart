@@ -17,3 +17,7 @@ class TestData {
     this.email,
     this.age,
     this.laptop,
+    this.gender,
+    this.v,
+    this.testDatumId,
+  });
