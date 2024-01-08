@@ -25,3 +25,5 @@ class TestData {
   String id;
   String name;
   String email;
+  String age;
+  String laptop;
