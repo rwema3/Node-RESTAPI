@@ -33,3 +33,5 @@ class TestData {
 
   factory TestData.fromJson(Map<String, dynamic> json) => TestData(
         id: json["_id"],
+        name: json["name"],
+        email: json["email"],
