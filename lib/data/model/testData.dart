@@ -5,4 +5,5 @@
 import 'dart:convert';
 
 List<TestData> testDataFromJson(String str) =>
+    List<TestData>.from(json.decode(str).map((x) => TestData.fromJson(x)));
 
