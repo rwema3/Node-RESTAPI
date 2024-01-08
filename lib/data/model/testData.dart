@@ -10,4 +10,15 @@ List<TestData> testDataFromJson(String str) =>
 String testDataToJson(List<TestData> data) =>
     json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
+class TestData {
+  TestData({
+    this.id,
+    this.name,
+    this.email,
+    this.age,
+    this.laptop,
+    this.gender,
+    this.v,
+    this.testDatumId,
+  });
 
