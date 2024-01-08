@@ -49,3 +49,7 @@ class TestData {
         "age": age,
         "laptop": laptop,
         "gender": gender,
+        "__v": v,
+        "id": testDatumId,
+      };
+}
