@@ -15,3 +15,5 @@ class TestData {
     this.id,
     this.name,
     this.email,
+    this.age,
+    this.laptop,
