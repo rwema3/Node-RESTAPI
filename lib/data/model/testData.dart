@@ -23,3 +23,5 @@ class TestData {
   });
 
   String id;
+  String name;
+  String email;
