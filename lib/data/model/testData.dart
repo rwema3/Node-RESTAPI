@@ -22,3 +22,12 @@ class TestData {
     this.testDatumId,
   });
 
+  String id;
+  String name;
+  String email;
+  String age;
+  String laptop;
+  String gender;
+  int v;
+  String testDatumId;
+
