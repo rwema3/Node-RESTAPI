@@ -12,3 +12,6 @@ String testDataToJson(List<TestData> data) =>
 
 class TestData {
   TestData({
+    this.id,
+    this.name,
+    this.email,
