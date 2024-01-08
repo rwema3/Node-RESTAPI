@@ -37,3 +37,5 @@ class TestData {
         email: json["email"],
         age: json["age"],
         laptop: json["laptop"],
+        gender: json["gender"],
+        v: json["__v"],
