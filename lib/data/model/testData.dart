@@ -35,3 +35,5 @@ class TestData {
         id: json["_id"],
         name: json["name"],
         email: json["email"],
+        age: json["age"],
+        laptop: json["laptop"],
