@@ -31,3 +31,4 @@ class TestData {
   int v;
   String testDatumId;
 
+  factory TestData.fromJson(Map<String, dynamic> json) => TestData(
